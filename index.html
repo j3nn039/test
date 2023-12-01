@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03</title>
+    <link href="https://fonts.googleapis.com/css?family=DM Serif Display" rel="stylesheet">
+  </head>
+  <style>
+    <!--
+    Code copied from: https: //www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
+    Author: w3schools.com Name: How TO - Contact Form Description: Contact Form Date retrieved: Nov. 28,
+    2023
+    -->
+
+  <!-- Copied code starts -->
+
+  body {
+  font-family: Source Sans Pro, sans-serif;
+  }
+
+  h1 {
+  font-family: DM Serif Display, serif;
+  }
+
+  * {
+  box-sizing: border-box;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+  }
+
+  input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+  font-weight: bold;
+  }
+
+  input[type=submit]:active {
+  background-color: #234014;
+  color: white;
+  }
+
+  .container {
+  border-radius: 5px;
+  background-color: #D9042C;
+  padding: 20px;
+  color: white;
+  }
+  <!-- Copied code ends -->
+
+  ul {
+  font-family: "DM Serif Display", serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  li a {
+  color: #234014;
+  display: block;
+  padding: 10px;
+  }
+
+  li a:hover {
+  color: #898C32;
+  }
+
+  li a:active {
+  color: #D9042C;
+  }
+
+  @media (max-width: 600px) {
+
+  /* screens less than 600px wide */
+  #headline {
+  display: block;
+  text-align: center
+  }
+
+  #mobileimage img {
+  width: 100%;
+  height: auto;
+  }
+
+  #desktopimage img {
+  display: none;
+  }
+
+  li a {
+  display: block;
+  padding: 3px;
+  }
+  }
+
+
+  /* Top left text */
+  .top-leftmobile {
+  position: absolute;
+  top: 300px;
+  left: 25px;
+  font-size: 3em;
+  color: white;
+  }
+
+  @media (min-width: 601px) {
+
+  /* screens larger than 600px wide */
+  body {
+  background-color: white;
+  }
+
+  img {
+  max-width: 50%;
+  height: auto;
+  }
+
+  li {
+  float: left
+  }
+
+  #headline {
+  display: block;
+  }
+
+  #desktopimage img {
+  max-width: 100%;
+  height: auto;
+  }
+
+  #mobileimage img {
+  display: none;
+  }
+
+  /* Top left text */
+  .top-leftdesktop {
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  font-size: 3em;
+  color: white;
+  }
+
+  /* Top left text */
+  .top-leftmobile {
+  display: none;
+  }
+
+  }
+
+  img {
+  background-color: #D9042C;
+  padding: .800em;
+  }
+
+  h2 {
+  color: #234014;
+  font-size: 2em;
+  }
+  </style>
+  <body>
+    <div id="headline">
+      <h1>KW Travels</h1>
+      <ul>
+        <li><a href="#WonderofLights">Wonder of Lights</a></li>
+        <li><a href="#Christkrindl Market">Christkrnidl Market</a></li>
+        <li><a href="#Comment">Comment</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Connect">Connect</a></li>
+      </ul>
+    </div>
+    <div id="mobileimage">
+      <img src="mobile title image.jpg" alt="description of image">
+    </div>
+    <div id="desktopimage">
+      <img src="desktop title image.jpg" alt="description of image">
+    </div>
+    <div class="top-leftdesktop">Things to Do in Kitchener-Waterloo: <br> Christmas Edition</div>
+    <div class="top-leftmobile">Things to Do in Kitchener-Waterloo: <br> Christmas Edition</div>
+    <h2>01. <br> Wonder of Lights</h2>
+    <p>Where: Waterloo Park <br>
+      When: November 25, 2023 - January 1, 2024 <br>
+      Hours: 5:00PM-10:30PM <br>
+      Website: <a href="https://www.wondersofwinter.ca/" target="_blank">https://www.wondersofwinter.ca/</a>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Bibendum ut tristique et egestas quis ipsum suspendisse. Tristique senectus et netus et malesuada. Mi bibendum neque egestas congue quisque egestas diam in. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Viverra vitae congue eu consequat ac felis donec et odio. Lacus vel facilisis volutpat est velit egestas dui. Et malesuada fames ac turpis egestas integer. Egestas integer eget aliquet nibh. Egestas erat imperdiet sed euismod nisi. Bibendum neque egestas congue quisque egestas. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Amet cursus sit amet dictum sit amet justo donec. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Suspendisse in est ante in. Nunc sed id semper risus. Sed turpis tincidunt id aliquet risus feugiat in ante metus.
+    </p>
+    <h2>02. <br> Christkindl Market</h2>
+    <p>Where: Downtown Kitchener <br>
+      When: December 07, 2023 - December 10, 2023 <br>
+      Hours: 10:00 AM-8:00PM (*4:00PM on December 10) <br>
+      Website: <a href="https://www.kitchener.ca/en/arts-culture-and-events/christkindl-market.aspx" target="_blank">https://www.kitchener.ca/en/arts-culture-and-events/christkindl-market.aspx</a>
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Bibendum ut tristique et egestas quis ipsum suspendisse. Tristique senectus et netus et malesuada. Mi bibendum neque egestas congue quisque egestas diam in. Nulla facilisi cras fermentum odio eu feugiat pretium nibh. Viverra vitae congue eu consequat ac felis donec et odio. Lacus vel facilisis volutpat est velit egestas dui. Et malesuada fames ac turpis egestas integer. Egestas integer eget aliquet nibh. Egestas erat imperdiet sed euismod nisi. Bibendum neque egestas congue quisque egestas. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Amet cursus sit amet dictum sit amet justo donec. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Suspendisse in est ante in. Nunc sed id semper risus. Sed turpis tincidunt id aliquet risus feugiat in ante metus.
+    </p>
+
+    <!--
+Code copied from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
+Author: w3schools.com
+Name: How TO - Contact Form
+Description: Contact Form
+Date retrieved: Nov. 28, 2023
+-->
+
+    <!-- Copied code starts -->
+    <div class="container">
+      <h1>Leave a Comment</h1>
+      <form action="/action_page.php">
+        <label for="fname">Name*</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+
+        <label for="lname">Email*</label>
+        <input type="text" id="email" name="email" placeholder="Your email...">
+
+
+        <label for="subject">Comment*</label>
+        <textarea id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="Submit" value="Submit">
+      </form>
+    </div>
+    <!-- Copied code ends -->
+    
+    <h2>Get to Know Me!</h2>
+    <img src="Get to Know Me!.jpg" alt="description of image" style="max-width:200px;height:auto;">
+    <p>Hi, my name is Jennifer! I am originally from Toronto, but moved to Waterloo for school. During my free time, I like to try out new restaurants, walk around, and go to different events happening in the Kitchener-Waterloo area with my friends. </p>
+    <h2> Let's Connect</h2>
+    <p>Email: <a href="mailto:jhhuang@uwaterloo.ca">jhhuang@uwaterloo.ca</a></p>
+  </body>
+</html>
